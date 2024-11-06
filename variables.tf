@@ -1,4 +1,11 @@
-variable "org_name" {
+variable "profile" {
+  default     = "rodrigofontesdev"
   type        = string
-  default     = "rodrigofontes"
+  description = "Nome do perfil SSO"
+}
+
+variable "region" {
+  default     = "us-east-1"
+  type        = string
+  description = "Região da conta"
 }
