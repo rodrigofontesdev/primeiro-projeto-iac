@@ -11,6 +11,7 @@ terraform {
     region  = "us-east-1"
     key     = "terraform.tfstate"
     encrypt = true
+    # profile = "nome_do_profile" or use AWS_PROFILE=nome_do_profile on terminal
   }
 }
 
